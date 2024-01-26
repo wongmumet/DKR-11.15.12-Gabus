@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        scroll-padding-top: 10rem;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial;
+        background-color: #191a1f;
+        color: #fff;
+      }
+
+      .uwu {
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #3e4352;
+        color: black;
+        font-size: 1.4rem;
+        margin: 10px auto;
+        padding-top: 17px;
+        display: block;
+        text-align: center;
+      }
+
+      .uwu:hover {
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+      }
+
+      .header {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .progja {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      h1,
+      h2 {
+        background: linear-gradient(90deg, #9d68c0, #fc7a7d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+      }
+
+      .progja p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #b8c1ec;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .column {
+        flex: 0 0 45%;
+        max-width: 45%;
+        padding: 0 15px;
+      }
+
+      p {
+        color: #9d68c0;
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1>Program Kerja Dewan Kerja Ranting</h1>
+      <h2>11.15.12 Gabus</h2>
+      <p>
+        Beberapa Program kerja yang akan atau sudah kami lakukan pada
+        kepengurusan 2023 -2026
+      </p>
+      <a href="#progja" class="uwu">Here</a>
+    </div>
+
+    <!-- Program Kerja -->
+    <div class="progja" id="progja">
+      <div class="row">
+        <div class="column">
+          <p>
+            1. Menyelenggarakan kegiatan dan ikut membantu kegiatan di Kwartir
+            Ranting Gabus.
+          </p>
+          <p>
+            2. Melaksanakan kegiatan tentang pentingnya menjaga kekompakan dan
+            Kebersamaan.
+          </p>
+        </div>
+        <div class="column">
+          <p>
+            3. Mengadakan pertemuan rutin setiap bulan sebanyak 2 kali untuk
+            membahas perkembangan organisasi DKR dan menetapkan langkah-langkah
+            selanjutnya.
+          </p>
+          <!-- Tambahkan program kerja lainnya sesuai kebutuhan -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox.min.js"></script>
+  </body>
+</html>

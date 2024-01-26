@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css"
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      scroll-behavior: smooth;
+      scroll-padding-top: 10rem;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: #191a1f;
+    }
+
+    .uwu {
+      width: 200px;
+      height: 60px;
+      border-radius: 50px;
+      background-color: #3e4352;
+      color: black;
+      font-size: 1.4rem;
+      margin: 10px auto;
+      padding-top: 17px;
+    }
+
+    .uwu:hover {
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+    }
+
+    .header {
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+
+    img {
+      animation: ease 20s;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    img:hover {
+      transform: scale(102%);
+    }
+
+    p {
+      margin: 0;
+      color: #9d68c0;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .gambar {
+      width: 95%;
+      height: 200vh;
+      margin: 10px auto;
+    }
+
+    h1 {
+      background: linear-gradient(90deg, #9d68c0, #fc7a7d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 6rem;
+    }
+    h2 {
+      background: linear-gradient(90deg, #9d68c0, #fc7a7d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 4rem;
+    }
+  </style>
+
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1>Satuan Tugas 2024</h1>
+      <h2>18-19 januari 2024</h2>
+      <p>Ini adalah hasil foto2 kegiatan yang telah kami laksanakan</p>
+      <a href="#gambar" class="uwu">Here</a>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="gambar" id="gambar">
+      <div class="row">
+        <div class="column">
+          <a href="1.png" data-lightbox="gallery" data-title="Gambar 1"
+            ><img src="1.png" alt=""
+          /></a>
+          <a href="2.jpeg" data-lightbox="gallery" data-title="Gambar 2"
+            ><img src="2.jpeg" alt=""
+          /></a>
+          <a href="3.jpeg" data-lightbox="gallery" data-title="Gambar 3"
+            ><img src="3.jpeg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan16.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 4"
+            ><img src="Img/kegiatan16.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan1.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 5"
+            ><img src="Img/kegiatan1.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan2.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 6"
+            ><img src="Img/kegiatan2.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan3.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 7"
+            ><img src="Img/kegiatan3.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan4.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 8"
+            ><img src="Img/kegiatan4.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="column">
+          <a
+            href="Img/kegiatan5.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 9"
+            ><img src="Img/kegiatan5.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan6.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 10"
+            ><img src="Img/kegiatan6.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan7.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 11"
+            ><img src="Img/kegiatan7.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan8.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 12"
+            ><img src="Img/kegiatan8.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan9.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 13"
+            ><img src="Img/kegiatan9.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan10.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 14"
+            ><img src="Img/kegiatan10.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan11.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 15"
+            ><img src="Img/kegiatan11.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="column">
+          <a
+            href="Img/kegiatan12.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 16"
+            ><img src="Img/kegiatan12.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan13.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 17"
+            ><img src="Img/kegiatan13.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan14.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 18"
+            ><img src="Img/kegiatan14.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan15.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 19"
+            ><img src="Img/kegiatan15.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan17.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 20"
+            ><img src="Img/kegiatan17.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan18.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 21"
+            ><img src="Img/kegiatan18.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan19.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 22"
+            ><img src="Img/kegiatan19.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="column">
+          <a
+            href="Img/kegiatan20.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 23"
+            ><img src="Img/kegiatan20.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan21.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 24"
+            ><img src="Img/kegiatan21.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan22.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 25"
+            ><img src="Img/kegiatan22.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan23.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 26"
+            ><img src="Img/kegiatan23.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan24.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 27"
+            ><img src="Img/kegiatan24.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan25.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 28"
+            ><img src="Img/kegiatan25.jpg" alt=""
+          /></a>
+          <a
+            href="Img/kegiatan26.jpg"
+            data-lightbox="gallery"
+            data-title="Gambar 29"
+            ><img src="Img/kegiatan26.jpg" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox.min.js"></script>
+  </body>
+</html>
